@@ -30,11 +30,9 @@ Se muestran **103 fichas**: 34 tickets individuales y 69 trabajos antiguos. Los 
 | Área neutra | Proyectos | Explorar |
 |---|---:|---|
 | Área Q | 21 | [Ver fichas](<catalogo/tickets/Área Q/README.md>) |
-| Área S | 0 | [Ver fichas](<catalogo/tickets/Área S/README.md>) |
 | Área D | 7 | [Ver fichas](<catalogo/tickets/Área D/README.md>) |
 | Área A | 5 | [Ver fichas](<catalogo/tickets/Área A/README.md>) |
 | Área G | 1 | [Ver fichas](<catalogo/tickets/Área G/README.md>) |
-| Otros | 0 | [Ver fichas](<catalogo/tickets/Otros/README.md>) |
 | **Total** | **34** | |
 
 [**Abrir el índice de tickets**](catalogo/tickets/README.md) · [**Consultar los 69 antiguos visibles**](catalogo/71_TRABAJOS_ANTIGUOS.md) · [**Catálogo HTML interactivo**](catalogo/index.html)

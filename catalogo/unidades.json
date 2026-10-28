@@ -16,11 +16,6 @@
       "proyectos": 21
     },
     {
-      "nombre": "Área S",
-      "codigo": "S",
-      "proyectos": 0
-    },
-    {
       "nombre": "Área D",
       "codigo": "D",
       "proyectos": 7
@@ -34,11 +29,6 @@
       "nombre": "Área G",
       "codigo": "G",
       "proyectos": 1
-    },
-    {
-      "nombre": "Otros",
-      "codigo": "X",
-      "proyectos": 0
     }
   ],
   "clasificacion_historica": {

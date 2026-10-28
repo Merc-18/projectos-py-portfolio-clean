@@ -1,6 +1,6 @@
 # Alcance, privacidad y estado
 
-- **34 proyectos individualizados** mediante códigos de presentación Q/D/A/G, agrupados en Área Q, S, D, A, G y Otros.
+- **34 proyectos individualizados** mediante códigos de presentación Q/D/A/G, agrupados en Área Q, D, A y G.
 - **71 trabajos históricos contabilizados**, de los cuales 69 tienen ficha visible y dos están reservados sin identidad pública.
 - Las 71 entradas históricas incluyen 48 soluciones candidatas, 10 variantes, 6 componentes, 5 experimentos y 2 duplicados. No implica que existan 71 proyectos independientes.
 - Las seis demos de código se cuentan solo como ejemplos, no como unidades adicionales.
