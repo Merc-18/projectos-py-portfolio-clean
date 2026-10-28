@@ -37,6 +37,20 @@ Se muestran **103 fichas**: 34 tickets individuales y 69 trabajos antiguos. Los 
 
 [**Abrir el índice de tickets**](catalogo/tickets/README.md) · [**Consultar los 69 antiguos visibles**](catalogo/71_TRABAJOS_ANTIGUOS.md) · [**Catálogo HTML interactivo**](catalogo/index.html)
 
+## Código de proyectos por ticket
+
+Por primera vez el portafolio incorpora **código de cinco proyectos reales**, adaptado del funcionamiento original, no solo fichas:
+
+| Ticket | Proyecto | Código |
+|---|---|---|
+| [D-004](<catalogo/tickets/Área D/D-004.md>) | Dividir PDF por páginas | [Ver código](<proyectos/Área D/D-004/README.md>) |
+| [D-007](<catalogo/tickets/Área D/D-007.md>) | Segmentar PDF por páginas en blanco | [Ver código](<proyectos/Área D/D-007/README.md>) |
+| [Q-002](<catalogo/tickets/Área Q/Q-002.md>) | Consolidación de indicadores Excel | [Ver código](<proyectos/Área Q/Q-002/README.md>) |
+| [Q-003](<catalogo/tickets/Área Q/Q-003.md>) | OCR local a Word | [Ver código](<proyectos/Área Q/Q-003/README.md>) |
+| [Q-007](<catalogo/tickets/Área Q/Q-007.md>) | Copia selectiva de PDF | [Ver código](<proyectos/Área Q/Q-007/README.md>) |
+
+**Estado de los 34 tickets:** 5 con código adaptado y verificado mediante 18 pruebas locales; 23 pendientes de revisión y 6 con solo descripción. Son adaptaciones depuradas, **no copias exactas ni autorizadas para publicación pública**.
+
 ## Demos de código disponibles
 
 Se incluyen seis **reimplementaciones autónomas con datos ficticios**, preparadas en lotes previos. No sustituyen a los desarrollos originales y se conservan separadas de las fichas del inventario.
@@ -47,7 +61,7 @@ Se incluyen seis **reimplementaciones autónomas con datos ficticios**, preparad
 | [Consolidador de libros Excel](proyectos/excel-workbook-consolidator/) | [Auditor de nombres PDF](proyectos/pdf-certificate-auditor/) |
 | [Inventario de carpetas](proyectos/folder-inventory-report/) | [Organizador PDF basado en Excel](proyectos/pdf-organizer-from-excel/) |
 
-Los **seis proyectos con código reservado** tienen únicamente su ficha descriptiva. Las otras 28 fichas no incluyen código y seguirán requiriendo aprobación individual para migrarlo.
+Los **seis proyectos con código reservado** tienen únicamente su ficha descriptiva. De los **28 no reservados**, cinco tienen código funcional saneado y veintitrés siguen pendientes. [Consultar el estado individual](docs/ESTADO_MIGRACION_CODIGO.md).
 
 ## Seguridad y publicación
 

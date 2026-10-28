@@ -5,7 +5,7 @@
 - Las 71 entradas históricas incluyen 48 soluciones candidatas, 10 variantes, 6 componentes, 5 experimentos y 2 duplicados. No implica que existan 71 proyectos independientes.
 - Las seis demos de código se cuentan solo como ejemplos, no como unidades adicionales.
 - Seis tickets tienen política de presentación **SOLO_DESCRIPCION**, sin código de origen.
-- Los 28 tickets restantes tampoco tienen código original en esta copia; no estarán disponibles hasta aprobar su revisión individual.
+- De los 28 tickets no reservados, cinco incluyen ahora código adaptado y probado con datos ficticios. Los otros 23 esperan una revisión técnica individual. Ningún ticket incorpora una copia literal del código empresarial original.
 
 Todos los textos son títulos funcionales neutrales. No se incluyen archivos, rutas ni referencias con nombres del antiguo empleador, sus áreas, personas, clientes o sistemas. Los originales permanecen en una ubicación privada independiente. Ninguna acción en esta copia modifica los originales.
 

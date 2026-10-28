@@ -7,7 +7,10 @@
     "total": 105,
     "historicos_visibles": 69,
     "historicos_reservados": 2,
-    "fichas_visibles": 103
+    "fichas_visibles": 103,
+    "codigo_adaptado_tickets": 5,
+    "tickets_no_reservados_pendientes": 23,
+    "tickets_solo_descripcion": 6
   },
   "areas": [
     {
@@ -90,7 +93,10 @@
       "categoria": "datos-excel",
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "Q-002",
@@ -99,7 +105,12 @@
       "categoria": "datos-excel",
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "CODIGO_FUNCIONAL_ADAPTADO_PRIVADO",
+      "ruta_codigo": "proyectos/Área Q/Q-002",
+      "validacion_sintetica": "INCLUIDO_EN_LOTE_18_PRUEBAS",
+      "apto_para_publicar": false
     },
     {
       "id": "Q-003",
@@ -108,7 +119,12 @@
       "categoria": "ocr-vision",
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "CODIGO_FUNCIONAL_ADAPTADO_PRIVADO",
+      "ruta_codigo": "proyectos/Área Q/Q-003",
+      "validacion_sintetica": "INCLUIDO_EN_LOTE_18_PRUEBAS",
+      "apto_para_publicar": false
     },
     {
       "id": "Q-004",
@@ -117,7 +133,10 @@
       "categoria": "archivos-sistemas",
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "Q-005",
@@ -126,7 +145,10 @@
       "categoria": "datos-excel",
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "Q-006",
@@ -135,7 +157,10 @@
       "categoria": "datos-excel",
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "Q-007",
@@ -144,7 +169,12 @@
       "categoria": "archivos-sistemas",
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "CODIGO_FUNCIONAL_ADAPTADO_PRIVADO",
+      "ruta_codigo": "proyectos/Área Q/Q-007",
+      "validacion_sintetica": "INCLUIDO_EN_LOTE_18_PRUEBAS",
+      "apto_para_publicar": false
     },
     {
       "id": "Q-008",
@@ -153,7 +183,10 @@
       "categoria": "datos-excel",
       "area": "Área Q",
       "politica_codigo": "SOLO_DESCRIPCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "RESERVADO_SIN_CODIGO",
+      "apto_para_publicar": false
     },
     {
       "id": "Q-009",
@@ -162,7 +195,10 @@
       "categoria": "datos-excel",
       "area": "Área Q",
       "politica_codigo": "SOLO_DESCRIPCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "RESERVADO_SIN_CODIGO",
+      "apto_para_publicar": false
     },
     {
       "id": "Q-010",
@@ -171,7 +207,10 @@
       "categoria": "apps-dashboards",
       "area": "Área Q",
       "politica_codigo": "SOLO_DESCRIPCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "RESERVADO_SIN_CODIGO",
+      "apto_para_publicar": false
     },
     {
       "id": "Q-011",
@@ -180,7 +219,10 @@
       "categoria": "datos-excel",
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "Q-012",
@@ -189,7 +231,10 @@
       "categoria": "pdf-documentos",
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "Q-013",
@@ -198,7 +243,10 @@
       "categoria": "pdf-documentos",
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "Q-014",
@@ -207,7 +255,10 @@
       "categoria": "ia-aplicada",
       "area": "Área Q",
       "politica_codigo": "SOLO_DESCRIPCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "RESERVADO_SIN_CODIGO",
+      "apto_para_publicar": false
     },
     {
       "id": "Q-015",
@@ -216,7 +267,10 @@
       "categoria": "pdf-documentos",
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "Q-016",
@@ -225,7 +279,10 @@
       "categoria": "pdf-documentos",
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "Q-017",
@@ -234,7 +291,10 @@
       "categoria": "pdf-documentos",
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "Q-018",
@@ -243,7 +303,10 @@
       "categoria": "automatizacion-web",
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "Q-019",
@@ -252,7 +315,10 @@
       "categoria": "ocr-vision",
       "area": "Área Q",
       "politica_codigo": "SOLO_DESCRIPCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "RESERVADO_SIN_CODIGO",
+      "apto_para_publicar": false
     },
     {
       "id": "Q-020",
@@ -261,7 +327,10 @@
       "categoria": "automatizacion-web",
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "Q-021",
@@ -270,7 +339,10 @@
       "categoria": "ocr-vision",
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "D-001",
@@ -279,7 +351,10 @@
       "categoria": "automatizacion-web",
       "area": "Área D",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "D-002",
@@ -288,7 +363,10 @@
       "categoria": "datos-excel",
       "area": "Área D",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "D-003",
@@ -297,7 +375,10 @@
       "categoria": "pdf-documentos",
       "area": "Área D",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "D-004",
@@ -306,7 +387,12 @@
       "categoria": "pdf-documentos",
       "area": "Área D",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "CODIGO_FUNCIONAL_ADAPTADO_PRIVADO",
+      "ruta_codigo": "proyectos/Área D/D-004",
+      "validacion_sintetica": "INCLUIDO_EN_LOTE_18_PRUEBAS",
+      "apto_para_publicar": false
     },
     {
       "id": "D-005",
@@ -315,7 +401,10 @@
       "categoria": "pdf-documentos",
       "area": "Área D",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "D-006",
@@ -324,7 +413,10 @@
       "categoria": "ia-aplicada",
       "area": "Área D",
       "politica_codigo": "SOLO_DESCRIPCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "RESERVADO_SIN_CODIGO",
+      "apto_para_publicar": false
     },
     {
       "id": "D-007",
@@ -333,7 +425,12 @@
       "categoria": "pdf-documentos",
       "area": "Área D",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "CODIGO_FUNCIONAL_ADAPTADO_PRIVADO",
+      "ruta_codigo": "proyectos/Área D/D-007",
+      "validacion_sintetica": "INCLUIDO_EN_LOTE_18_PRUEBAS",
+      "apto_para_publicar": false
     },
     {
       "id": "A-001",
@@ -342,7 +439,10 @@
       "categoria": "pdf-documentos",
       "area": "Área A",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "A-002",
@@ -351,7 +451,10 @@
       "categoria": "pdf-documentos",
       "area": "Área A",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "A-003",
@@ -360,7 +463,10 @@
       "categoria": "pdf-documentos",
       "area": "Área A",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "A-004",
@@ -369,7 +475,10 @@
       "categoria": "automatizacion-web",
       "area": "Área A",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "A-005",
@@ -378,7 +487,10 @@
       "categoria": "archivos-sistemas",
       "area": "Área A",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "G-001",
@@ -387,7 +499,10 @@
       "categoria": "apps-dashboards",
       "area": "Área G",
       "politica_codigo": "REQUIERE_AUTORIZACION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "codigo_adaptado_incluido": false,
+      "estado_migracion": "PENDIENTE_REVISION",
+      "apto_para_publicar": false
     },
     {
       "id": "H001",
@@ -942,5 +1057,5 @@
       "codigo_original_incluido": false
     }
   ],
-  "aviso": "No contiene nombres ni rutas originales, ni identificadores internos. Dos entradas históricas quedan fuera del listado; no se incluyen sus IDs."
+  "aviso": "No contiene nombres ni rutas originales, ni identificadores internos. Dos entradas históricas quedan fuera del listado; no se incluyen sus IDs. Se han incorporado cinco versiones de código adaptado en un repositorio privado; el código original sin saneamiento sigue reservado."
 }
