@@ -1,0 +1,956 @@
+{
+  "schema_version": "public-candidate-1.0",
+  "estado": "PRIVADO_PENDIENTE_DE_APROBACION",
+  "resumen": {
+    "tickets": 34,
+    "historicos": 71,
+    "total": 105,
+    "historicos_visibles": 69,
+    "historicos_reservados": 2,
+    "fichas_visibles": 103
+  },
+  "areas": [
+    {
+      "nombre": "Área Q",
+      "codigo": "Q",
+      "proyectos": 21
+    },
+    {
+      "nombre": "Área S",
+      "codigo": "S",
+      "proyectos": 0
+    },
+    {
+      "nombre": "Área D",
+      "codigo": "D",
+      "proyectos": 7
+    },
+    {
+      "nombre": "Área A",
+      "codigo": "A",
+      "proyectos": 5
+    },
+    {
+      "nombre": "Área G",
+      "codigo": "G",
+      "proyectos": 1
+    },
+    {
+      "nombre": "Otros",
+      "codigo": "X",
+      "proyectos": 0
+    }
+  ],
+  "clasificacion_historica": {
+    "COMPONENTE": 6,
+    "VARIANTE": 10,
+    "SOLUCION": 48,
+    "DUPLICADO": 2,
+    "EXPERIMENTO": 5
+  },
+  "categorias": [
+    {
+      "id": "datos-excel",
+      "nombre": "Datos y Excel",
+      "tickets": 8,
+      "antiguos_visibles": 32
+    },
+    {
+      "id": "pdf-documentos",
+      "nombre": "PDF y documentos",
+      "tickets": 12,
+      "antiguos_visibles": 9
+    },
+    {
+      "id": "ocr-vision",
+      "nombre": "OCR y visión",
+      "tickets": 3,
+      "antiguos_visibles": 6
+    },
+    {
+      "id": "ia-aplicada",
+      "nombre": "Inteligencia artificial",
+      "tickets": 2,
+      "antiguos_visibles": 7
+    },
+    {
+      "id": "automatizacion-web",
+      "nombre": "Web e integraciones",
+      "tickets": 4,
+      "antiguos_visibles": 4
+    },
+    {
+      "id": "apps-dashboards",
+      "nombre": "Aplicaciones y dashboards",
+      "tickets": 2,
+      "antiguos_visibles": 3
+    },
+    {
+      "id": "archivos-sistemas",
+      "nombre": "Archivos y sistemas",
+      "tickets": 3,
+      "antiguos_visibles": 8
+    }
+  ],
+  "registros": [
+    {
+      "id": "Q-001",
+      "titulo": "Conciliación de registros operativos",
+      "grupo": "ticket",
+      "categoria": "datos-excel",
+      "area": "Área Q",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "Q-002",
+      "titulo": "Consolidación de indicadores tabulares",
+      "grupo": "ticket",
+      "categoria": "datos-excel",
+      "area": "Área Q",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "Q-003",
+      "titulo": "Transcripción de imágenes a documentos",
+      "grupo": "ticket",
+      "categoria": "ocr-vision",
+      "area": "Área Q",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "Q-004",
+      "titulo": "Clasificación y limpieza de carpetas",
+      "grupo": "ticket",
+      "categoria": "archivos-sistemas",
+      "area": "Área Q",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "Q-005",
+      "titulo": "Conciliación de registros — versión territorial A",
+      "grupo": "ticket",
+      "categoria": "datos-excel",
+      "area": "Área Q",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "Q-006",
+      "titulo": "Conciliación de registros — versión territorial B",
+      "grupo": "ticket",
+      "categoria": "datos-excel",
+      "area": "Área Q",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "Q-007",
+      "titulo": "Copia controlada de documentos PDF",
+      "grupo": "ticket",
+      "categoria": "archivos-sistemas",
+      "area": "Área Q",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "Q-008",
+      "titulo": "Procesamiento de incidencias",
+      "grupo": "ticket",
+      "categoria": "datos-excel",
+      "area": "Área Q",
+      "politica_codigo": "SOLO_DESCRIPCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "Q-009",
+      "titulo": "Resumen de incidencias",
+      "grupo": "ticket",
+      "categoria": "datos-excel",
+      "area": "Área Q",
+      "politica_codigo": "SOLO_DESCRIPCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "Q-010",
+      "titulo": "Panel de seguimiento y visualización",
+      "grupo": "ticket",
+      "categoria": "apps-dashboards",
+      "area": "Área Q",
+      "politica_codigo": "SOLO_DESCRIPCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "Q-011",
+      "titulo": "Preparación de bases de datos",
+      "grupo": "ticket",
+      "categoria": "datos-excel",
+      "area": "Área Q",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "Q-012",
+      "titulo": "Clasificación de documentos por propiedades",
+      "grupo": "ticket",
+      "categoria": "pdf-documentos",
+      "area": "Área Q",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "Q-013",
+      "titulo": "Extracción estructurada desde Word",
+      "grupo": "ticket",
+      "categoria": "pdf-documentos",
+      "area": "Área Q",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "Q-014",
+      "titulo": "Análisis de imágenes y metadatos mediante IA",
+      "grupo": "ticket",
+      "categoria": "ia-aplicada",
+      "area": "Área Q",
+      "politica_codigo": "SOLO_DESCRIPCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "Q-015",
+      "titulo": "Evaluación de similitud entre documentos",
+      "grupo": "ticket",
+      "categoria": "pdf-documentos",
+      "area": "Área Q",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "Q-016",
+      "titulo": "Detección de documentos duplicados",
+      "grupo": "ticket",
+      "categoria": "pdf-documentos",
+      "area": "Área Q",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "Q-017",
+      "titulo": "Consolidación automatizada de documentos",
+      "grupo": "ticket",
+      "categoria": "pdf-documentos",
+      "area": "Área Q",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "Q-018",
+      "titulo": "Automatización de descarga documental",
+      "grupo": "ticket",
+      "categoria": "automatizacion-web",
+      "area": "Área Q",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "Q-019",
+      "titulo": "Análisis técnico de fotografías",
+      "grupo": "ticket",
+      "categoria": "ocr-vision",
+      "area": "Área Q",
+      "politica_codigo": "SOLO_DESCRIPCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "Q-020",
+      "titulo": "Seguimiento mediante plataformas de automatización",
+      "grupo": "ticket",
+      "categoria": "automatizacion-web",
+      "area": "Área Q",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "Q-021",
+      "titulo": "Actualización de un analizador visual",
+      "grupo": "ticket",
+      "categoria": "ocr-vision",
+      "area": "Área Q",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "D-001",
+      "titulo": "Extracción automatizada de recursos web",
+      "grupo": "ticket",
+      "categoria": "automatizacion-web",
+      "area": "Área D",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "D-002",
+      "titulo": "Comparación y verificación de registros",
+      "grupo": "ticket",
+      "categoria": "datos-excel",
+      "area": "Área D",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "D-003",
+      "titulo": "Generación automática de certificados PDF",
+      "grupo": "ticket",
+      "categoria": "pdf-documentos",
+      "area": "Área D",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "D-004",
+      "titulo": "Separación y segmentación de PDF",
+      "grupo": "ticket",
+      "categoria": "pdf-documentos",
+      "area": "Área D",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "D-005",
+      "titulo": "Edición y transformación de PDF",
+      "grupo": "ticket",
+      "categoria": "pdf-documentos",
+      "area": "Área D",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "D-006",
+      "titulo": "Digitalización de encuestas con IA",
+      "grupo": "ticket",
+      "categoria": "ia-aplicada",
+      "area": "Área D",
+      "politica_codigo": "SOLO_DESCRIPCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "D-007",
+      "titulo": "Detección de páginas en blanco",
+      "grupo": "ticket",
+      "categoria": "pdf-documentos",
+      "area": "Área D",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "A-001",
+      "titulo": "Firma automatizada de documentos — tipo A",
+      "grupo": "ticket",
+      "categoria": "pdf-documentos",
+      "area": "Área A",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "A-002",
+      "titulo": "Firma automatizada de documentos — tipo B",
+      "grupo": "ticket",
+      "categoria": "pdf-documentos",
+      "area": "Área A",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "A-003",
+      "titulo": "Firma automatizada de documentos — tipo C",
+      "grupo": "ticket",
+      "categoria": "pdf-documentos",
+      "area": "Área A",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "A-004",
+      "titulo": "Bot para automatización web",
+      "grupo": "ticket",
+      "categoria": "automatizacion-web",
+      "area": "Área A",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "A-005",
+      "titulo": "Inventario y filtrado de carpetas",
+      "grupo": "ticket",
+      "categoria": "archivos-sistemas",
+      "area": "Área A",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "G-001",
+      "titulo": "Generador interactivo de fichas PDF",
+      "grupo": "ticket",
+      "categoria": "apps-dashboards",
+      "area": "Área G",
+      "politica_codigo": "REQUIERE_AUTORIZACION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H001",
+      "titulo": "Identificación de tamaños de página",
+      "grupo": "historico",
+      "categoria": "pdf-documentos",
+      "rol_preliminar": "COMPONENTE",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H002",
+      "titulo": "Preparación de registros — fase 1",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "COMPONENTE",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H003",
+      "titulo": "Preparación de registros — fase 2",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "COMPONENTE",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H004",
+      "titulo": "Consolidación de registros — fase 3",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "COMPONENTE",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H005",
+      "titulo": "Visor documental — variante",
+      "grupo": "historico",
+      "categoria": "apps-dashboards",
+      "rol_preliminar": "VARIANTE",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H006",
+      "titulo": "Extracción de observaciones desde Word",
+      "grupo": "historico",
+      "categoria": "pdf-documentos",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H007",
+      "titulo": "Extractor de documentos — revisión",
+      "grupo": "historico",
+      "categoria": "pdf-documentos",
+      "rol_preliminar": "VARIANTE",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H010",
+      "titulo": "Normalización de libros Excel",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H011",
+      "titulo": "Automatización de registros web",
+      "grupo": "historico",
+      "categoria": "automatizacion-web",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H012",
+      "titulo": "Consolidación de tablas por región",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H013",
+      "titulo": "Cálculo de períodos — copia duplicada",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "DUPLICADO",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H014",
+      "titulo": "Cálculo de períodos y fechas",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H015",
+      "titulo": "Conciliación de registros tabulares",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H016",
+      "titulo": "Normalización de encabezados Excel",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H017",
+      "titulo": "Generador de plantillas Excel",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H018",
+      "titulo": "Experimento con modelos de lenguaje",
+      "grupo": "historico",
+      "categoria": "ia-aplicada",
+      "rol_preliminar": "EXPERIMENTO",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H019",
+      "titulo": "Comparador de métricas — variante",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "VARIANTE",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H020",
+      "titulo": "Consolidación de formatos PDF y Word",
+      "grupo": "historico",
+      "categoria": "pdf-documentos",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H021",
+      "titulo": "Digitalización de formularios — variante",
+      "grupo": "historico",
+      "categoria": "ia-aplicada",
+      "rol_preliminar": "VARIANTE",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H022",
+      "titulo": "Recopilador de PDF en carpetas",
+      "grupo": "historico",
+      "categoria": "archivos-sistemas",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H023",
+      "titulo": "Reconocimiento OCR en fotografías",
+      "grupo": "historico",
+      "categoria": "ocr-vision",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H024",
+      "titulo": "Automatización documental — variante",
+      "grupo": "historico",
+      "categoria": "pdf-documentos",
+      "rol_preliminar": "VARIANTE",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H025",
+      "titulo": "Numeración y foliado de documentos",
+      "grupo": "historico",
+      "categoria": "pdf-documentos",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H026",
+      "titulo": "Análisis de elementos gráficos",
+      "grupo": "historico",
+      "categoria": "ocr-vision",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H027",
+      "titulo": "Renombrado preparatorio de archivos",
+      "grupo": "historico",
+      "categoria": "archivos-sistemas",
+      "rol_preliminar": "COMPONENTE",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H028",
+      "titulo": "Comparador de indicadores — duplicado",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "DUPLICADO",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H029",
+      "titulo": "Comparador de métricas tabulares",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H030",
+      "titulo": "Comparación de indicadores — variante",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "VARIANTE",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H031",
+      "titulo": "Generación de informes diarios",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H032",
+      "titulo": "Generación de informes mensuales",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H033",
+      "titulo": "Comparador de informes — variante",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "VARIANTE",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H034",
+      "titulo": "Análisis de uso de páginas",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H035",
+      "titulo": "Análisis de picos de tráfico",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H036",
+      "titulo": "Análisis de consumo por evento",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H037",
+      "titulo": "Consolidación de métricas de sesiones",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H038",
+      "titulo": "Experimento de integración con IA",
+      "grupo": "historico",
+      "categoria": "ia-aplicada",
+      "rol_preliminar": "EXPERIMENTO",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H039",
+      "titulo": "Interfaz de gestión de solicitudes",
+      "grupo": "historico",
+      "categoria": "apps-dashboards",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H040",
+      "titulo": "Automatización de navegación web",
+      "grupo": "historico",
+      "categoria": "automatizacion-web",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H041",
+      "titulo": "Consolidación de indicadores Excel",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H042",
+      "titulo": "Preparación de registros de disponibilidad",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H043",
+      "titulo": "Comparación de datos de disponibilidad",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H044",
+      "titulo": "Aplicación de análisis documental",
+      "grupo": "historico",
+      "categoria": "apps-dashboards",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H045",
+      "titulo": "Análisis visual de PDF mediante IA",
+      "grupo": "historico",
+      "categoria": "ia-aplicada",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H046",
+      "titulo": "Experimento de integración de servicios",
+      "grupo": "historico",
+      "categoria": "ia-aplicada",
+      "rol_preliminar": "EXPERIMENTO",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H047",
+      "titulo": "Preparación de datos históricos",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H048",
+      "titulo": "Procesamiento de mensajes con IA — variante",
+      "grupo": "historico",
+      "categoria": "ia-aplicada",
+      "rol_preliminar": "VARIANTE",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H049",
+      "titulo": "Procesamiento de documentos y mensajes",
+      "grupo": "historico",
+      "categoria": "automatizacion-web",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H050",
+      "titulo": "Conversión de mensajes en documentos",
+      "grupo": "historico",
+      "categoria": "pdf-documentos",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H051",
+      "titulo": "Comparador de columnas Excel",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H052",
+      "titulo": "Comparador aproximado de datos Excel",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H053",
+      "titulo": "Consolidador de libros Excel",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H054",
+      "titulo": "Generador de informes por fecha",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H055",
+      "titulo": "Organizador de PDF mediante Excel",
+      "grupo": "historico",
+      "categoria": "archivos-sistemas",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H056",
+      "titulo": "Inventario de carpetas a Excel",
+      "grupo": "historico",
+      "categoria": "archivos-sistemas",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H057",
+      "titulo": "Búsqueda aproximada de documentos",
+      "grupo": "historico",
+      "categoria": "archivos-sistemas",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H058",
+      "titulo": "Analizador de mensajes locales",
+      "grupo": "historico",
+      "categoria": "automatizacion-web",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H059",
+      "titulo": "Experimento de herramientas OCR",
+      "grupo": "historico",
+      "categoria": "ocr-vision",
+      "rol_preliminar": "EXPERIMENTO",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H060",
+      "titulo": "Preparación de plantillas de documentos",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "COMPONENTE",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H061",
+      "titulo": "Recopilador de PDF mediante listas",
+      "grupo": "historico",
+      "categoria": "archivos-sistemas",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H062",
+      "titulo": "Recopilador de PDF con informe",
+      "grupo": "historico",
+      "categoria": "archivos-sistemas",
+      "rol_preliminar": "VARIANTE",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H063",
+      "titulo": "Extracción OCR asistida por IA",
+      "grupo": "historico",
+      "categoria": "ia-aplicada",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H064",
+      "titulo": "Conversor de PDF con OCR",
+      "grupo": "historico",
+      "categoria": "ocr-vision",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H065",
+      "titulo": "Análisis comparativo de PDF",
+      "grupo": "historico",
+      "categoria": "pdf-documentos",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H066",
+      "titulo": "Auditoría de documentos por patrones",
+      "grupo": "historico",
+      "categoria": "archivos-sistemas",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H067",
+      "titulo": "Conversión de páginas escaneadas",
+      "grupo": "historico",
+      "categoria": "ocr-vision",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H068",
+      "titulo": "Extracción de campos desde PDF",
+      "grupo": "historico",
+      "categoria": "pdf-documentos",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H069",
+      "titulo": "Análisis de promedios en Excel",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H070",
+      "titulo": "Experimento de configuración OCR",
+      "grupo": "historico",
+      "categoria": "ocr-vision",
+      "rol_preliminar": "EXPERIMENTO",
+      "codigo_original_incluido": false
+    },
+    {
+      "id": "H071",
+      "titulo": "Transformación de datos Excel tabulares",
+      "grupo": "historico",
+      "categoria": "datos-excel",
+      "rol_preliminar": "SOLUCION",
+      "codigo_original_incluido": false
+    }
+  ],
+  "aviso": "No contiene nombres ni rutas originales, ni identificadores internos. Dos entradas históricas quedan fuera del listado; no se incluyen sus IDs."
+}

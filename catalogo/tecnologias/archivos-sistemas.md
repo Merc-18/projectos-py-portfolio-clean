@@ -1,0 +1,21 @@
+# Archivos y sistemas
+Inventario, organización y procesamiento local
+**11 fichas visibles**: 3 tickets y 8 trabajos antiguos.
+## Proyectos por ticket
+| Código | Proyecto | Código fuente |
+|---|---|---|
+| [A-005](../tickets/Área A/A-005.md) | Inventario y filtrado de carpetas | Pendiente de autorización |
+| [Q-004](../tickets/Área Q/Q-004.md) | Clasificación y limpieza de carpetas | Pendiente de autorización |
+| [Q-007](../tickets/Área Q/Q-007.md) | Copia controlada de documentos PDF | Pendiente de autorización |
+## Trabajos históricos
+| Código | Trabajo | Clasificación provisional |
+|---|---|---|
+| H022 | Recopilador de PDF en carpetas | Solucion |
+| H027 | Renombrado preparatorio de archivos | Componente |
+| H055 | Organizador de PDF mediante Excel | Solucion |
+| H056 | Inventario de carpetas a Excel | Solucion |
+| H057 | Búsqueda aproximada de documentos | Solucion |
+| H061 | Recopilador de PDF mediante listas | Solucion |
+| H062 | Recopilador de PDF con informe | Variante |
+| H066 | Auditoría de documentos por patrones | Solucion |
+[Índice tecnológico](README.md)

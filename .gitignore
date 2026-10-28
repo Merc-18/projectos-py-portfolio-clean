@@ -1,0 +1,23 @@
+# Credentials, local configurations and private sources
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.sqlite
+*.db
+*secrets*.json
+*credentials*.json
+.private/
+privado/
+datos_reales/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+.DS_Store
+Thumbs.db
