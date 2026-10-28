@@ -39,7 +39,7 @@ Se muestran **103 fichas**: 34 tickets individuales y 69 trabajos antiguos. Los 
 
 ## Código de proyectos por ticket
 
-Por primera vez el portafolio incorpora **código adaptado de siete proyectos por ticket**, adaptado del funcionamiento original, no solo fichas:
+Por primera vez el portafolio incorpora **código funcional saneado de dieciséis proyectos por ticket**, adaptado del funcionamiento original, no solo fichas:
 
 | Ticket | Proyecto | Código |
 |---|---|---|
@@ -50,8 +50,17 @@ Por primera vez el portafolio incorpora **código adaptado de siete proyectos po
 | [Q-007](<catalogo/tickets/Área Q/Q-007.md>) | Copia selectiva de PDF | [Ver código](<proyectos/Área Q/Q-007/README.md>) |
 | [Q-013](<catalogo/tickets/Área Q/Q-013.md>) | Word a Excel con tablas de casos | [Ver código](<proyectos/Área Q/Q-013/README.md>) |
 | [Q-015](<catalogo/tickets/Área Q/Q-015.md>) | Similitud visual entre PDF | [Ver código](<proyectos/Área Q/Q-015/README.md>) |
+| [Q-001](<catalogo/tickets/Área Q/Q-001.md>) | Conciliación tabular por clave | [Ver código](<proyectos/Área Q/Q-001/README.md>) |
+| [Q-004](<catalogo/tickets/Área Q/Q-004.md>) | Conservación selectiva de PDF | [Ver código](<proyectos/Área Q/Q-004/README.md>) |
+| [Q-005](<catalogo/tickets/Área Q/Q-005.md>) | Conciliación con fechas | [Ver código](<proyectos/Área Q/Q-005/README.md>) |
+| [Q-006](<catalogo/tickets/Área Q/Q-006.md>) | Conciliación multiclave | [Ver código](<proyectos/Área Q/Q-006/README.md>) |
+| [Q-011](<catalogo/tickets/Área Q/Q-011.md>) | Conciliación con maestro detectado | [Ver código](<proyectos/Área Q/Q-011/README.md>) |
+| [Q-012](<catalogo/tickets/Área Q/Q-012.md>) | Organización documental desde Excel | [Ver código](<proyectos/Área Q/Q-012/README.md>) |
+| [D-002](<catalogo/tickets/Área D/D-002.md>) | Revisión offline de enlaces | [Ver código](<proyectos/Área D/D-002/README.md>) |
+| [D-003](<catalogo/tickets/Área D/D-003.md>) | Documentos de demostración PDF | [Ver código](<proyectos/Área D/D-003/README.md>) |
+| [A-005](<catalogo/tickets/Área A/A-005.md>) | Auditoría de carpetas | [Ver código](<proyectos/Área A/A-005/README.md>) |
 
-**Estado de los 34 tickets:** 7 con código adaptado y 32 pruebas locales acumuladas; 21 pendientes de revisión y 6 con solo descripción. Son adaptaciones depuradas, **no copias exactas ni autorizadas para publicación pública**.
+**Estado de los 34 tickets:** 16 con código funcional saneado (incluidas alternativas seguras) y 61 pruebas locales acumuladas; 12 pendientes de revisión y 6 con solo descripción. Son adaptaciones depuradas, **no copias exactas ni autorizadas para publicación pública**.
 
 ## Demos de código disponibles
 
@@ -63,7 +72,7 @@ Se incluyen seis **reimplementaciones autónomas con datos ficticios**, preparad
 | [Consolidador de libros Excel](proyectos/excel-workbook-consolidator/) | [Auditor de nombres PDF](proyectos/pdf-certificate-auditor/) |
 | [Inventario de carpetas](proyectos/folder-inventory-report/) | [Organizador PDF basado en Excel](proyectos/pdf-organizer-from-excel/) |
 
-Los **seis proyectos con código reservado** tienen únicamente su ficha descriptiva. De los **28 no reservados**, siete tienen código funcional saneado y veintiuno siguen pendientes. [Consultar el estado individual](docs/ESTADO_MIGRACION_CODIGO.md).
+Los **seis proyectos con código reservado** tienen únicamente su ficha descriptiva. De los **28 no reservados**, dieciséis tienen código funcional saneado y doce siguen pendientes. [Consultar el estado individual](docs/ESTADO_MIGRACION_CODIGO.md).
 
 ## Seguridad y publicación
 

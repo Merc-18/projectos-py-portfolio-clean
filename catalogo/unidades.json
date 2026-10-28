@@ -8,8 +8,8 @@
     "historicos_visibles": 69,
     "historicos_reservados": 2,
     "fichas_visibles": 103,
-    "codigo_adaptado_tickets": 5,
-    "tickets_no_reservados_pendientes": 23,
+    "codigo_adaptado_tickets": 16,
+    "tickets_no_reservados_pendientes": 12,
     "tickets_solo_descripcion": 6
   },
   "areas": [
@@ -94,9 +94,11 @@
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "CODIGO_SEGURO_PRIVADO",
+      "apto_para_publicar": false,
+      "enlace_codigo": "proyectos/Área Q/Q-001/run.py",
+      "tipo_implementacion": "ADAPTACION_GENERICA"
     },
     {
       "id": "Q-002",
@@ -134,9 +136,11 @@
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "CODIGO_SEGURO_PRIVADO",
+      "apto_para_publicar": false,
+      "enlace_codigo": "proyectos/Área Q/Q-004/preserve_pdfs.py",
+      "tipo_implementacion": "ADAPTACION_NO_DESTRUCTIVA"
     },
     {
       "id": "Q-005",
@@ -146,9 +150,11 @@
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "CODIGO_SEGURO_PRIVADO",
+      "apto_para_publicar": false,
+      "enlace_codigo": "proyectos/Área Q/Q-005/run.py",
+      "tipo_implementacion": "ADAPTACION_GENERICA"
     },
     {
       "id": "Q-006",
@@ -158,9 +164,11 @@
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "CODIGO_SEGURO_PRIVADO",
+      "apto_para_publicar": false,
+      "enlace_codigo": "proyectos/Área Q/Q-006/run.py",
+      "tipo_implementacion": "ADAPTACION_GENERICA"
     },
     {
       "id": "Q-007",
@@ -220,9 +228,11 @@
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "CODIGO_SEGURO_PRIVADO",
+      "apto_para_publicar": false,
+      "enlace_codigo": "proyectos/Área Q/Q-011/run.py",
+      "tipo_implementacion": "ADAPTACION_GENERICA"
     },
     {
       "id": "Q-012",
@@ -232,9 +242,11 @@
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "CODIGO_SEGURO_PRIVADO",
+      "apto_para_publicar": false,
+      "enlace_codigo": "proyectos/Área Q/Q-012/organize_from_excel.py",
+      "tipo_implementacion": "ADAPTACION_NO_DESTRUCTIVA"
     },
     {
       "id": "Q-013",
@@ -366,9 +378,11 @@
       "area": "Área D",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "CODIGO_SEGURO_PRIVADO",
+      "apto_para_publicar": false,
+      "enlace_codigo": "proyectos/Área D/D-002/review_resources.py",
+      "tipo_implementacion": "ADAPTACION_GENERICA"
     },
     {
       "id": "D-003",
@@ -378,9 +392,11 @@
       "area": "Área D",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "CODIGO_SEGURO_PRIVADO",
+      "apto_para_publicar": false,
+      "enlace_codigo": "proyectos/Área D/D-003/make_demo_documents.py",
+      "tipo_implementacion": "ALTERNATIVA_DEMO"
     },
     {
       "id": "D-004",
@@ -490,9 +506,11 @@
       "area": "Área A",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "CODIGO_SEGURO_PRIVADO",
+      "apto_para_publicar": false,
+      "enlace_codigo": "proyectos/Área A/A-005/folder_audit.py",
+      "tipo_implementacion": "ADAPTACION_NO_DESTRUCTIVA"
     },
     {
       "id": "G-001",
@@ -1061,10 +1079,9 @@
   ],
   "aviso": "No contiene nombres ni rutas originales, ni identificadores internos. Dos entradas históricas quedan fuera del listado; no se incluyen sus IDs. Se han incorporado cinco versiones de código adaptado en un repositorio privado; el código original sin saneamiento sigue reservado.",
   "estado_migracion": {
-    "tickets_codigo_adaptado": 7,
-    "tickets_pendientes": 21,
+    "tickets_codigo_privado": 16,
+    "tickets_pendientes": 12,
     "tickets_solo_descripcion": 6,
-    "antiguos": 71,
-    "pruebas_locales_acumuladas": 32
+    "pruebas_locales_acumuladas": 61
   }
 }

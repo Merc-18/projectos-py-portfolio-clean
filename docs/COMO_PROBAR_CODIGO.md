@@ -45,3 +45,15 @@ python -m pytest -q tests/test_q013_q015.py
 ```
 
 Q-013 necesita un documento Word sintético con columnas Zona, Lugar y Descripción. Q-015 requiere pares de PDF ficticios, con nombres similares. Las salidas se guardan en ubicaciones proporcionadas por el usuario y no se sobrescriben por defecto. El score pHash no verifica autenticidad de firmas.
+
+
+## Lotes 04 y 05: 29 pruebas adicionales
+
+Los cuatro tickets de conciliación Q-001, Q-005, Q-006 y Q-011 utilizan `proyectos/portfolio_core/enrichment.py`, un motor compartido. Para reproducir las pruebas de estos lotes:
+
+```bash
+python -m pip install pytest openpyxl PyMuPDF reportlab
+python -m pytest -q tests/test_batch04.py tests/test_enrichment.py
+```
+
+El filtrado de archivos y carpetas opera en modo simulación por defecto, sin eliminar fuentes. D-003 produce únicamente documentos ficticios marcados SIN VALIDEZ OFICIAL.
