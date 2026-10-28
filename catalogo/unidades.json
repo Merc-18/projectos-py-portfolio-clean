@@ -112,7 +112,8 @@
       "estado_migracion": "CODIGO_FUNCIONAL_ADAPTADO_PRIVADO",
       "ruta_codigo": "proyectos/Área Q/Q-002",
       "validacion_sintetica": "INCLUIDO_EN_LOTE_18_PRUEBAS",
-      "apto_para_publicar": false
+      "apto_para_publicar": false,
+      "enlace_codigo": "proyectos/Área Q/Q-002/consolidar_indicadores.py"
     },
     {
       "id": "Q-003",
@@ -126,7 +127,8 @@
       "estado_migracion": "CODIGO_FUNCIONAL_ADAPTADO_PRIVADO",
       "ruta_codigo": "proyectos/Área Q/Q-003",
       "validacion_sintetica": "INCLUIDO_EN_LOTE_18_PRUEBAS",
-      "apto_para_publicar": false
+      "apto_para_publicar": false,
+      "enlace_codigo": "proyectos/Área Q/Q-003/ocr_a_word.py"
     },
     {
       "id": "Q-004",
@@ -182,7 +184,8 @@
       "estado_migracion": "CODIGO_FUNCIONAL_ADAPTADO_PRIVADO",
       "ruta_codigo": "proyectos/Área Q/Q-007",
       "validacion_sintetica": "INCLUIDO_EN_LOTE_18_PRUEBAS",
-      "apto_para_publicar": false
+      "apto_para_publicar": false,
+      "enlace_codigo": "proyectos/Área Q/Q-007/copiar_documentos.py"
     },
     {
       "id": "Q-008",
@@ -422,7 +425,8 @@
       "estado_migracion": "CODIGO_FUNCIONAL_ADAPTADO_PRIVADO",
       "ruta_codigo": "proyectos/Área D/D-004",
       "validacion_sintetica": "INCLUIDO_EN_LOTE_18_PRUEBAS",
-      "apto_para_publicar": false
+      "apto_para_publicar": false,
+      "enlace_codigo": "proyectos/Área D/D-004/separar_pdf.py"
     },
     {
       "id": "D-005",
@@ -462,7 +466,8 @@
       "estado_migracion": "CODIGO_FUNCIONAL_ADAPTADO_PRIVADO",
       "ruta_codigo": "proyectos/Área D/D-007",
       "validacion_sintetica": "INCLUIDO_EN_LOTE_18_PRUEBAS",
-      "apto_para_publicar": false
+      "apto_para_publicar": false,
+      "enlace_codigo": "proyectos/Área D/D-007/separar_pdf_blancas.py"
     },
     {
       "id": "A-001",
