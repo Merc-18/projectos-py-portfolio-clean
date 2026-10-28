@@ -39,7 +39,7 @@ Se muestran **103 fichas**: 34 tickets individuales y 69 trabajos antiguos. Los 
 
 ## Código de proyectos por ticket
 
-Por primera vez el portafolio incorpora **código de cinco proyectos reales**, adaptado del funcionamiento original, no solo fichas:
+Por primera vez el portafolio incorpora **código adaptado de siete proyectos por ticket**, adaptado del funcionamiento original, no solo fichas:
 
 | Ticket | Proyecto | Código |
 |---|---|---|
@@ -48,8 +48,10 @@ Por primera vez el portafolio incorpora **código de cinco proyectos reales**, a
 | [Q-002](<catalogo/tickets/Área Q/Q-002.md>) | Consolidación de indicadores Excel | [Ver código](<proyectos/Área Q/Q-002/README.md>) |
 | [Q-003](<catalogo/tickets/Área Q/Q-003.md>) | OCR local a Word | [Ver código](<proyectos/Área Q/Q-003/README.md>) |
 | [Q-007](<catalogo/tickets/Área Q/Q-007.md>) | Copia selectiva de PDF | [Ver código](<proyectos/Área Q/Q-007/README.md>) |
+| [Q-013](<catalogo/tickets/Área Q/Q-013.md>) | Word a Excel con tablas de casos | [Ver código](<proyectos/Área Q/Q-013/README.md>) |
+| [Q-015](<catalogo/tickets/Área Q/Q-015.md>) | Similitud visual entre PDF | [Ver código](<proyectos/Área Q/Q-015/README.md>) |
 
-**Estado de los 34 tickets:** 5 con código adaptado y verificado mediante 18 pruebas locales; 23 pendientes de revisión y 6 con solo descripción. Son adaptaciones depuradas, **no copias exactas ni autorizadas para publicación pública**.
+**Estado de los 34 tickets:** 7 con código adaptado y 32 pruebas locales acumuladas; 21 pendientes de revisión y 6 con solo descripción. Son adaptaciones depuradas, **no copias exactas ni autorizadas para publicación pública**.
 
 ## Demos de código disponibles
 
@@ -61,7 +63,7 @@ Se incluyen seis **reimplementaciones autónomas con datos ficticios**, preparad
 | [Consolidador de libros Excel](proyectos/excel-workbook-consolidator/) | [Auditor de nombres PDF](proyectos/pdf-certificate-auditor/) |
 | [Inventario de carpetas](proyectos/folder-inventory-report/) | [Organizador PDF basado en Excel](proyectos/pdf-organizer-from-excel/) |
 
-Los **seis proyectos con código reservado** tienen únicamente su ficha descriptiva. De los **28 no reservados**, cinco tienen código funcional saneado y veintitrés siguen pendientes. [Consultar el estado individual](docs/ESTADO_MIGRACION_CODIGO.md).
+Los **seis proyectos con código reservado** tienen únicamente su ficha descriptiva. De los **28 no reservados**, siete tienen código funcional saneado y veintiuno siguen pendientes. [Consultar el estado individual](docs/ESTADO_MIGRACION_CODIGO.md).
 
 ## Seguridad y publicación
 

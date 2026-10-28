@@ -4,12 +4,12 @@
 
 | Estado | Tickets |
 |---|---:|
-| Código funcional adaptado en repo privado | **5** |
-| Pendiente de saneamiento y revisión | **23** |
+| Código funcional adaptado en repo privado | **7** |
+| Pendiente de saneamiento y revisión | **21** |
 | Solo descripción, sin código por instrucción expresa | **6** |
 | **Total** | **34** |
 
-En los cinco proyectos migrados, se trabajó a partir de su funcionalidad original conservando algoritmos relevantes, se eliminaron dependencias de entornos internos y se realizaron **18 pruebas con archivos ficticios**. No se presume equivalencia exacta con los originales, ni autorización para difusión pública.
+En los siete proyectos migrados, se trabajó a partir de su funcionalidad original conservando algoritmos relevantes, se eliminaron dependencias de entornos internos y se realizaron **32 pruebas locales acumuladas (18 anteriores y 14 nuevas) con datos ficticios**. No se presume equivalencia exacta con los originales, ni autorización para difusión pública.
 
 ## Estado individual
 
@@ -27,9 +27,9 @@ En los cinco proyectos migrados, se trabajó a partir de su funcionalidad origin
 | Q-010 | SOLO_DESCRIPCION | Restricción expresa: no incorporar fuentes |
 | Q-011 | PENDIENTE_REVISION | Procesamiento operacional y reglas internas: aislar funciones genéricas. |
 | Q-012 | PENDIENTE_REVISION | Trabaja con documentos de identidad y estructura de datos personales. |
-| Q-013 | PENDIENTE_REVISION | Plantillas y reglas documentales específicas: sustituir por formatos ficticios. |
+| Q-013 | CODIGO_ADAPTADO_PRIVADO | Word a Excel: extracción de casos; código revisado, 14 pruebas nuevas compartidas del lote, sin publicación autorizada. |
 | Q-014 | SOLO_DESCRIPCION | Restricción expresa: no incorporar fuentes |
-| Q-015 | PENDIENTE_REVISION | Herramienta de hash perceptual pendiente de adaptar y probar sin rutas internas. |
+| Q-015 | CODIGO_ADAPTADO_PRIVADO | Similitud visual de PDF mediante pHash; código revisado, 14 pruebas nuevas compartidas del lote, sin publicación autorizada. |
 | Q-016 | PENDIENTE_REVISION | Implementación extensa de documentos: revisión de dependencias y datos. |
 | Q-017 | PENDIENTE_REVISION | Rutas y estructura documental interna: requiere parametrización. |
 | Q-018 | PENDIENTE_REVISION | Integración con servicio autenticado: eliminar endpoints y credenciales. |
@@ -57,3 +57,7 @@ No incluir datos reales, nombres de empresas, marcas internas, rutas de puestos 
 Los 71 trabajos antiguos (69 fichas visibles y 2 reservadas) conservan su propio proceso de clasificación; las seis demos genéricas no se contabilizan como proyectos adicionales.
 
 **Toda la copia seguirá privada. El paso a pública requiere auditoría integral y aprobación expresa.**
+
+## Lote 03 — Q-013 y Q-015
+
+Se incorporaron los algoritmos saneados de extracción de casos en Word a Excel y comparación perceptual de PDF. Se ejecutaron **14 tests nuevos** con documentos creados para pruebas y se verificaron las salidas XLSX, CSV, PNG y DOCX. No se utilizaron archivos reales. La similitud perceptual no autentica firmas ni garantiza identidad documental.

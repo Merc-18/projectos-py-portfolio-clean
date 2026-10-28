@@ -33,3 +33,15 @@ python -m unittest discover -s tests -p 'test_migraciones_tickets.py' -v
 Las pruebas cubren separación, clasificación, archivo Excel, exportación DOCX y prevención de sobrescrituras. **No equivalen a una validación integral** de OCR en fotografías difíciles, documentos corporativos, ni situaciones operativas reales.
 
 **Mantener el repositorio privado:** el permiso de publicación del código todavía no está confirmado.
+
+
+## Lote 03: Word → Excel y similitud PDF
+
+```bash
+python -m pip install -r 'proyectos/Área Q/Q-013/requirements.txt'
+python -m pip install -r 'proyectos/Área Q/Q-015/requirements.txt'
+python -m pip install pytest reportlab
+python -m pytest -q tests/test_q013_q015.py
+```
+
+Q-013 necesita un documento Word sintético con columnas Zona, Lugar y Descripción. Q-015 requiere pares de PDF ficticios, con nombres similares. Las salidas se guardan en ubicaciones proporcionadas por el usuario y no se sobrescriben por defecto. El score pHash no verifica autenticidad de firmas.

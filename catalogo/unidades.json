@@ -244,9 +244,10 @@
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "CODIGO_ADAPTADO_PRIVADO",
+      "apto_para_publicar": false,
+      "enlace_codigo": "proyectos/Área Q/Q-013/word_a_excel.py"
     },
     {
       "id": "Q-014",
@@ -268,9 +269,10 @@
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "CODIGO_ADAPTADO_PRIVADO",
+      "apto_para_publicar": false,
+      "enlace_codigo": "proyectos/Área Q/Q-015/pdf_similarity.py"
     },
     {
       "id": "Q-016",
@@ -1057,5 +1059,12 @@
       "codigo_original_incluido": false
     }
   ],
-  "aviso": "No contiene nombres ni rutas originales, ni identificadores internos. Dos entradas históricas quedan fuera del listado; no se incluyen sus IDs. Se han incorporado cinco versiones de código adaptado en un repositorio privado; el código original sin saneamiento sigue reservado."
+  "aviso": "No contiene nombres ni rutas originales, ni identificadores internos. Dos entradas históricas quedan fuera del listado; no se incluyen sus IDs. Se han incorporado cinco versiones de código adaptado en un repositorio privado; el código original sin saneamiento sigue reservado.",
+  "estado_migracion": {
+    "tickets_codigo_adaptado": 7,
+    "tickets_pendientes": 21,
+    "tickets_solo_descripcion": 6,
+    "antiguos": 71,
+    "pruebas_locales_acumuladas": 32
+  }
 }
