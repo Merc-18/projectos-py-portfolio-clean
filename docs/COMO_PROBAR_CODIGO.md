@@ -57,3 +57,15 @@ python -m pytest -q tests/test_batch04.py tests/test_enrichment.py
 ```
 
 El filtrado de archivos y carpetas opera en modo simulación por defecto, sin eliminar fuentes. D-003 produce únicamente documentos ficticios marcados SIN VALIDEZ OFICIAL.
+
+
+## Lotes 06 y 07 — 32 nuevas pruebas
+
+```bash
+python -m pip install pytest pymupdf numpy Pillow openpyxl beautifulsoup4 requests reportlab playwright
+python -m pytest -q tests/test_batch06.py tests/test_batch07.py
+```
+
+Para A-004 instale Chromium (o el navegador Playwright correspondiente). Para la interfaz G-001 instale Streamlit mediante el `requirements.txt` del proyecto. El generador PDF de G-001 se prueba por separado incluso si Streamlit no está instalado.
+
+**Seguridad:** nunca introducir credenciales o datos reales en los ejemplos. Las alternativas de sellos/firmas solo producen texto **MUESTRA - SIN FIRMA**, y las salidas de G-001 se marcan **DEMO - SIN VALIDEZ OFICIAL**. D-005 es exclusivamente lectura. No activar el modo de descarga Q-018 hacia sistemas internos.

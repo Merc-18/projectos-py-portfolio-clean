@@ -39,7 +39,7 @@ Se muestran **103 fichas**: 34 tickets individuales y 69 trabajos antiguos. Los 
 
 ## Código de proyectos por ticket
 
-Por primera vez el portafolio incorpora **código funcional saneado de dieciséis proyectos por ticket**, adaptado del funcionamiento original, no solo fichas:
+Por primera vez el portafolio incorpora **código ejecutable en los 28 proyectos por ticket no reservados**, adaptado del funcionamiento original, no solo fichas:
 
 | Ticket | Proyecto | Código |
 |---|---|---|
@@ -59,8 +59,20 @@ Por primera vez el portafolio incorpora **código funcional saneado de dieciséi
 | [D-002](<catalogo/tickets/Área D/D-002.md>) | Revisión offline de enlaces | [Ver código](<proyectos/Área D/D-002/README.md>) |
 | [D-003](<catalogo/tickets/Área D/D-003.md>) | Documentos de demostración PDF | [Ver código](<proyectos/Área D/D-003/README.md>) |
 | [A-005](<catalogo/tickets/Área A/A-005.md>) | Auditoría de carpetas | [Ver código](<proyectos/Área A/A-005/README.md>) |
+| [Q-016](<catalogo/tickets/Área Q/Q-016.md>) | Detección de duplicados PDF mediante hash | [Abrir código](<proyectos/Área Q/Q-016/README.md>) |
+| [Q-017](<catalogo/tickets/Área Q/Q-017.md>) | Consolidación genérica de reportes Excel | [Abrir código](<proyectos/Área Q/Q-017/README.md>) |
+| [Q-018](<catalogo/tickets/Área Q/Q-018.md>) | Descarga HTTPS con consentimiento y simulación | [Abrir código](<proyectos/Área Q/Q-018/README.md>) |
+| [D-001](<catalogo/tickets/Área D/D-001.md>) | Extracción de recursos desde HTML local | [Abrir código](<proyectos/Área D/D-001/README.md>) |
+| [A-001](<catalogo/tickets/Área A/A-001.md>) | Marcado ficticio PDF (alternativa sin firma) | [Abrir código](<proyectos/Área A/A-001/README.md>) |
+| [A-002](<catalogo/tickets/Área A/A-002.md>) | Marcado ficticio PDF (variante sin firma) | [Abrir código](<proyectos/Área A/A-002/README.md>) |
+| [A-003](<catalogo/tickets/Área A/A-003.md>) | Marcado ficticio PDF (otra disposición) | [Abrir código](<proyectos/Área A/A-003/README.md>) |
+| [A-004](<catalogo/tickets/Área A/A-004.md>) | Automatización local de formularios de prueba | [Abrir código](<proyectos/Área A/A-004/README.md>) |
+| [D-005](<catalogo/tickets/Área D/D-005.md>) | Auditoría no destructiva de fechas y leyendas PDF | [Abrir código](<proyectos/Área D/D-005/README.md>) |
+| [Q-020](<catalogo/tickets/Área Q/Q-020.md>) | Inspección anónima de estructura XML | [Abrir código](<proyectos/Área Q/Q-020/README.md>) |
+| [Q-021](<catalogo/tickets/Área Q/Q-021.md>) | Metadatos no sensibles de fotografías | [Abrir código](<proyectos/Área Q/Q-021/README.md>) |
+| [G-001](<catalogo/tickets/Área G/G-001.md>) | Formulario Streamlit para PDF ficticio | [Abrir código](<proyectos/Área G/G-001/README.md>) |
 
-**Estado de los 34 tickets:** 16 con código funcional saneado (incluidas alternativas seguras) y 61 pruebas locales acumuladas; 12 pendientes de revisión y 6 con solo descripción. Son adaptaciones depuradas, **no copias exactas ni autorizadas para publicación pública**.
+**Estado de los 34 tickets:** 28 con código ejecutable en la copia privada, de los cuales algunos son **alternativas técnicas de demostración y no equivalentes al original**; 6 permanecen exclusivamente descriptivos. Se han registrado **93 pruebas locales acumuladas** (75 realizadas en los lotes 03–07 y 18 de un lote anterior). Los módulos no están autorizados para publicación pública.
 
 ## Demos de código disponibles
 
@@ -72,10 +84,14 @@ Se incluyen seis **reimplementaciones autónomas con datos ficticios**, preparad
 | [Consolidador de libros Excel](proyectos/excel-workbook-consolidator/) | [Auditor de nombres PDF](proyectos/pdf-certificate-auditor/) |
 | [Inventario de carpetas](proyectos/folder-inventory-report/) | [Organizador PDF basado en Excel](proyectos/pdf-organizer-from-excel/) |
 
-Los **seis proyectos con código reservado** tienen únicamente su ficha descriptiva. De los **28 no reservados**, dieciséis tienen código funcional saneado y doce siguen pendientes. [Consultar el estado individual](docs/ESTADO_MIGRACION_CODIGO.md).
+Los **seis proyectos con código reservado** tienen únicamente su ficha descriptiva. De los **28 no reservados**, los 28 tienen código funcional adaptado o una alternativa ejecutable; no quedan tickets pendientes de una implementación privada. [Consultar el estado individual](docs/ESTADO_MIGRACION_CODIGO.md).
 
 ## Seguridad y publicación
 
 Esta copia **no contiene las rutas, nombres de empresa, ni el historial Git del repositorio original**. La correspondencia con los tickets históricos no forma parte del portafolio. El proyecto todavía **NO está autorizado para hacerse público**: cualquier publicación necesita comprobación de secretos, datos, licencias y derechos de distribución.
 
 [Revisión de publicación](docs/PUBLICACION_PENDIENTE.md) · [Notas metodológicas](docs/INVENTARIO_Y_PRIVACIDAD.md)
+
+### Diferencias entre implementaciones
+
+Las fichas diferencian dos situaciones: **adaptación funcional saneada** cuando se conservó el objetivo técnico general, y **alternativa demostrativa** cuando copiar el original expondría firmas, credenciales, interfaces internas, plantillas o cambios documentales delicados. Que una alternativa sea ejecutable **no significa** que el sistema empresarial esté reproducido o probado de extremo a extremo.

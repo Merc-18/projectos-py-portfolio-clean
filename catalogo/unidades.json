@@ -8,8 +8,8 @@
     "historicos_visibles": 69,
     "historicos_reservados": 2,
     "fichas_visibles": 103,
-    "codigo_adaptado_tickets": 16,
-    "tickets_no_reservados_pendientes": 12,
+    "codigo_adaptado_tickets": 28,
+    "tickets_no_reservados_pendientes": 0,
     "tickets_solo_descripcion": 6
   },
   "areas": [
@@ -294,9 +294,11 @@
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "CODIGO_ADAPTADO_PRIVADO",
+      "apto_para_publicar": false,
+      "tipo_implementacion": "ADAPTACION_GENERICAPDF",
+      "enlace_codigo": "proyectos/Área Q/Q-016/pdf_duplicates.py"
     },
     {
       "id": "Q-017",
@@ -306,9 +308,11 @@
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "CODIGO_ADAPTADO_PRIVADO",
+      "apto_para_publicar": false,
+      "tipo_implementacion": "ADAPTACION_GENERICA_XLSX",
+      "enlace_codigo": "proyectos/Área Q/Q-017/merge_reports.py"
     },
     {
       "id": "Q-018",
@@ -318,9 +322,11 @@
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "ALTERNATIVA_DEMO_PRIVADA",
+      "apto_para_publicar": false,
+      "tipo_implementacion": "ALTERNATIVA_HTTPS_CONTROLADA",
+      "enlace_codigo": "proyectos/Área Q/Q-018/secure_downloader.py"
     },
     {
       "id": "Q-019",
@@ -342,9 +348,11 @@
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "ALTERNATIVA_DEMO_PRIVADA",
+      "apto_para_publicar": false,
+      "tipo_implementacion": "ALTERNATIVA_RESUMEN_XML",
+      "enlace_codigo": "proyectos/Área Q/Q-020/inspect_solution.py"
     },
     {
       "id": "Q-021",
@@ -354,9 +362,11 @@
       "area": "Área Q",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "ALTERNATIVA_DEMO_PRIVADA",
+      "apto_para_publicar": false,
+      "tipo_implementacion": "ALTERNATIVA_EXIF_ANONIMO",
+      "enlace_codigo": "proyectos/Área Q/Q-021/image_metadata.py"
     },
     {
       "id": "D-001",
@@ -366,9 +376,11 @@
       "area": "Área D",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "ALTERNATIVA_DEMO_PRIVADA",
+      "apto_para_publicar": false,
+      "tipo_implementacion": "ALTERNATIVA_OFFLINE",
+      "enlace_codigo": "proyectos/Área D/D-001/local_resources.py"
     },
     {
       "id": "D-002",
@@ -420,9 +432,11 @@
       "area": "Área D",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "ALTERNATIVA_DEMO_PRIVADA",
+      "apto_para_publicar": false,
+      "tipo_implementacion": "ALTERNATIVA_AUDITORIA_SIN_EDICION",
+      "enlace_codigo": "proyectos/Área D/D-005/pdf_audit.py"
     },
     {
       "id": "D-006",
@@ -458,9 +472,11 @@
       "area": "Área A",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "ALTERNATIVA_DEMO_PRIVADA",
+      "apto_para_publicar": false,
+      "tipo_implementacion": "ALTERNATIVA_PDF_SIN_FIRMA",
+      "enlace_codigo": "proyectos/Área A/A-001/demo_pdf.py"
     },
     {
       "id": "A-002",
@@ -470,9 +486,11 @@
       "area": "Área A",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "ALTERNATIVA_DEMO_PRIVADA",
+      "apto_para_publicar": false,
+      "tipo_implementacion": "ALTERNATIVA_PDF_SIN_FIRMA",
+      "enlace_codigo": "proyectos/Área A/A-002/demo_pdf.py"
     },
     {
       "id": "A-003",
@@ -482,9 +500,11 @@
       "area": "Área A",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "ALTERNATIVA_DEMO_PRIVADA",
+      "apto_para_publicar": false,
+      "tipo_implementacion": "ALTERNATIVA_PDF_SIN_FIRMA",
+      "enlace_codigo": "proyectos/Área A/A-003/demo_pdf.py"
     },
     {
       "id": "A-004",
@@ -494,9 +514,11 @@
       "area": "Área A",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "ALTERNATIVA_DEMO_PRIVADA",
+      "apto_para_publicar": false,
+      "tipo_implementacion": "ALTERNATIVA_NAVEGADOR_LOCAL",
+      "enlace_codigo": "proyectos/Área A/A-004/offline_form_bot.py"
     },
     {
       "id": "A-005",
@@ -520,9 +542,11 @@
       "area": "Área G",
       "politica_codigo": "REQUIERE_AUTORIZACION",
       "codigo_original_incluido": false,
-      "codigo_adaptado_incluido": false,
-      "estado_migracion": "PENDIENTE_REVISION",
-      "apto_para_publicar": false
+      "codigo_adaptado_incluido": true,
+      "estado_migracion": "ALTERNATIVA_DEMO_PRIVADA",
+      "apto_para_publicar": false,
+      "tipo_implementacion": "ALTERNATIVA_APP_FICTICIA",
+      "enlace_codigo": "proyectos/Área G/G-001/app.py"
     },
     {
       "id": "H001",
@@ -1079,9 +1103,10 @@
   ],
   "aviso": "No contiene nombres ni rutas originales, ni identificadores internos. Dos entradas históricas quedan fuera del listado; no se incluyen sus IDs. Se han incorporado cinco versiones de código adaptado en un repositorio privado; el código original sin saneamiento sigue reservado.",
   "estado_migracion": {
-    "tickets_codigo_privado": 16,
-    "tickets_pendientes": 12,
+    "tickets_con_codigo_ejecutable_privado": 28,
+    "tickets_pendientes": 0,
     "tickets_solo_descripcion": 6,
-    "pruebas_locales_acumuladas": 61
+    "pruebas_locales_acumuladas": 93,
+    "nota": "Algunas implementaciones son demostraciones alternativas, no migración íntegra del original"
   }
 }
