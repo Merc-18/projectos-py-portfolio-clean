@@ -1529,7 +1529,7 @@
       "enlace_codigo": "proyectos/historicos/H071/run.py"
     }
   ],
-  "aviso": "No contiene nombres ni rutas originales, ni identificadores internos. Dos entradas históricas quedan fuera del listado; no se incluyen sus IDs. Se han incorporado cinco versiones de código adaptado en un repositorio privado; el código original sin saneamiento sigue reservado.",
+  "aviso": "No contiene nombres ni rutas originales, ni identificadores internos. Dos entradas históricas quedan fuera del listado; no se incluyen sus IDs. Se han incorporado cinco versiones de código adaptado en un repositorio privado; el código original sin depuracion sigue reservado.",
   "estado_migracion": {
     "tickets_con_codigo_ejecutable_privado": 28,
     "tickets_pendientes": 0,
