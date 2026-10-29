@@ -11,3 +11,5 @@ El catálogo tiene **103 fichas visibles**, más **2 registros históricos reser
 | [Archivos y sistemas](archivos-sistemas.md) | 3 | 8 | **11** |
 | **Fichas visibles** | **34** | **69** | **103** |
 Dos registros reservados completan el inventario de 105. Las seis demos técnicas no se contabilizan por separado.
+
+[Explorar el codigo y las relaciones de los 69 historicos](../../proyectos/historicos/README.md). Los dos registros historicos reservados no se muestran.

@@ -10,10 +10,10 @@ Lectura de imágenes, fotografías y texto digitalizado
 ## Trabajos históricos
 | Código | Trabajo | Clasificación provisional |
 |---|---|---|
-| H023 | Reconocimiento OCR en fotografías | Solucion |
-| H026 | Análisis de elementos gráficos | Solucion |
-| H059 | Experimento de herramientas OCR | Experimento |
-| H064 | Conversor de PDF con OCR | Solucion |
-| H067 | Conversión de páginas escaneadas | Solucion |
-| H070 | Experimento de configuración OCR | Experimento |
+| [H023](../../proyectos/historicos/H023/README.md) | Reconocimiento OCR en fotografías | Solucion |
+| [H026](../../proyectos/historicos/H026/README.md) | Análisis de elementos gráficos | Solucion |
+| [H059](../../proyectos/historicos/H059/README.md) | Experimento de herramientas OCR | Experimento |
+| [H064](../../proyectos/historicos/H064/README.md) | Conversor de PDF con OCR | Solucion |
+| [H067](../../proyectos/historicos/H067/README.md) | Conversión de páginas escaneadas | Solucion |
+| [H070](../../proyectos/historicos/H070/README.md) | Experimento de configuración OCR | Experimento |
 [Índice tecnológico](README.md)

@@ -19,13 +19,13 @@ Extracción, preparación, firma y conversión de archivos
 ## Trabajos históricos
 | Código | Trabajo | Clasificación provisional |
 |---|---|---|
-| H001 | Identificación de tamaños de página | Componente |
-| H006 | Extracción de observaciones desde Word | Solucion |
-| H007 | Extractor de documentos — revisión | Variante |
-| H020 | Consolidación de formatos PDF y Word | Solucion |
-| H024 | Automatización documental — variante | Variante |
-| H025 | Numeración y foliado de documentos | Solucion |
-| H050 | Conversión de mensajes en documentos | Solucion |
-| H065 | Análisis comparativo de PDF | Solucion |
-| H068 | Extracción de campos desde PDF | Solucion |
+| [H001](../../proyectos/historicos/H001/README.md) | Identificación de tamaños de página | Componente |
+| [H006](../../proyectos/historicos/H006/README.md) | Extracción de observaciones desde Word | Solucion |
+| [H007](../../proyectos/historicos/H007/README.md) | Extractor de documentos — revisión | Variante |
+| [H020](../../proyectos/historicos/H020/README.md) | Consolidación de formatos PDF y Word | Solucion |
+| [H024](../../proyectos/historicos/H024/README.md) | Automatización documental — variante | Variante |
+| [H025](../../proyectos/historicos/H025/README.md) | Numeración y foliado de documentos | Solucion |
+| [H050](../../proyectos/historicos/H050/README.md) | Conversión de mensajes en documentos | Solucion |
+| [H065](../../proyectos/historicos/H065/README.md) | Análisis comparativo de PDF | Solucion |
+| [H068](../../proyectos/historicos/H068/README.md) | Extracción de campos desde PDF | Solucion |
 [Índice tecnológico](README.md)

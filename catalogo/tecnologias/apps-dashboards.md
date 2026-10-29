@@ -9,7 +9,7 @@ Interfaces interactivas, visualización y seguimiento
 ## Trabajos históricos
 | Código | Trabajo | Clasificación provisional |
 |---|---|---|
-| H005 | Visor documental — variante | Variante |
-| H039 | Interfaz de gestión de solicitudes | Solucion |
-| H044 | Aplicación de análisis documental | Solucion |
+| [H005](../../proyectos/historicos/H005/README.md) | Visor documental — variante | Variante |
+| [H039](../../proyectos/historicos/H039/README.md) | Interfaz de gestión de solicitudes | Solucion |
+| [H044](../../proyectos/historicos/H044/README.md) | Aplicación de análisis documental | Solucion |
 [Índice tecnológico](README.md)

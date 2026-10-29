@@ -11,8 +11,8 @@ Automatización de portales, flujos y APIs
 ## Trabajos históricos
 | Código | Trabajo | Clasificación provisional |
 |---|---|---|
-| H011 | Automatización de registros web | Solucion |
-| H040 | Automatización de navegación web | Solucion |
-| H049 | Procesamiento de documentos y mensajes | Solucion |
-| H058 | Analizador de mensajes locales | Solucion |
+| [H011](../../proyectos/historicos/H011/README.md) | Automatización de registros web | Solucion |
+| [H040](../../proyectos/historicos/H040/README.md) | Automatización de navegación web | Solucion |
+| [H049](../../proyectos/historicos/H049/README.md) | Procesamiento de documentos y mensajes | Solucion |
+| [H058](../../proyectos/historicos/H058/README.md) | Analizador de mensajes locales | Solucion |
 [Índice tecnológico](README.md)

@@ -25,6 +25,23 @@ Se muestran **103 fichas**: 34 tickets individuales y 69 trabajos antiguos. Los 
 | **[Archivos y sistemas](catalogo/tecnologias/archivos-sistemas.md)** | 3 | 8 | 11 |
 | **Total visible** | **34** | **69** | **103** |
 
+## Codigo y relaciones de los trabajos antiguos
+
+Los **69 trabajos historicos visibles** ya tienen [su ficha tecnica y un tratamiento de codigo](proyectos/historicos/README.md) en esta copia privada. **No se han importado los programas corporativos originales.**
+
+| Tratamiento | Unidades |
+|---|---:|
+| Reconstrucciones independientes ejecutables offline | **51** |
+| Enlaces a demos saneadas existentes | **6** |
+| Variantes o componentes con referencia al canonico | **8** |
+| Duplicados exactos sin codigo repetido | **2** |
+| Entradas restringidas sin codigo | **2** |
+| **Total visible historico** | **69** |
+
+[Ver los 69](proyectos/historicos/README.md) · [Resultados de auditoria](AUDITORIA_PREPUBLICACION.md) · [Pruebas](proyectos/historicos/tests/test_historicos.py)
+
+Las reconstrucciones usan datos ficticios y no certifican equivalencia funcional con los desarrollos privados. Los **dos registros antiguos reservados** se mantienen ocultos y el inventario global no cambia: **34 + 71 = 105**.
+
 ## Proyectos por área
 
 | Área neutra | Proyectos | Explorar |

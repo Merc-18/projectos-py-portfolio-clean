@@ -1,5 +1,5 @@
 {
-  "schema_version": "public-candidate-1.0",
+  "schema_version": 4,
   "estado": "PRIVADO_PENDIENTE_DE_APROBACION",
   "resumen": {
     "tickets": 34,
@@ -559,7 +559,13 @@
       "grupo": "historico",
       "categoria": "pdf-documentos",
       "rol_preliminar": "COMPONENTE",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H001/README.md",
+      "enlace_codigo": "proyectos/historicos/H001/run.py"
     },
     {
       "id": "H002",
@@ -567,7 +573,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "COMPONENTE",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H002/README.md",
+      "enlace_codigo": "proyectos/historicos/H002/run.py"
     },
     {
       "id": "H003",
@@ -575,7 +587,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "COMPONENTE",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H003/README.md",
+      "enlace_codigo": "proyectos/historicos/H003/run.py"
     },
     {
       "id": "H004",
@@ -583,7 +601,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "COMPONENTE",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H004/README.md",
+      "enlace_codigo": "proyectos/historicos/H004/run.py"
     },
     {
       "id": "H005",
@@ -591,7 +615,14 @@
       "grupo": "historico",
       "categoria": "apps-dashboards",
       "rol_preliminar": "VARIANTE",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "RELATED_NO_DUPLICATE_CODE",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H005/README.md",
+      "enlace_codigo": "proyectos/historicos/H044/README.md",
+      "relacion_canonica": "H044"
     },
     {
       "id": "H006",
@@ -599,7 +630,13 @@
       "grupo": "historico",
       "categoria": "pdf-documentos",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H006/README.md",
+      "enlace_codigo": "proyectos/historicos/H006/run.py"
     },
     {
       "id": "H007",
@@ -607,7 +644,14 @@
       "grupo": "historico",
       "categoria": "pdf-documentos",
       "rol_preliminar": "VARIANTE",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "RELATED_NO_DUPLICATE_CODE",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H007/README.md",
+      "enlace_codigo": "proyectos/historicos/H006/README.md",
+      "relacion_canonica": "H006"
     },
     {
       "id": "H010",
@@ -615,7 +659,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H010/README.md",
+      "enlace_codigo": "proyectos/historicos/H010/run.py"
     },
     {
       "id": "H011",
@@ -623,7 +673,13 @@
       "grupo": "historico",
       "categoria": "automatizacion-web",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H011/README.md",
+      "enlace_codigo": "proyectos/historicos/H011/run.py"
     },
     {
       "id": "H012",
@@ -631,7 +687,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H012/README.md",
+      "enlace_codigo": "proyectos/historicos/H012/run.py"
     },
     {
       "id": "H013",
@@ -639,7 +701,14 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "DUPLICADO",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "DUPLICATE_NO_CODE",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H013/README.md",
+      "enlace_codigo": "proyectos/historicos/H014/README.md",
+      "relacion_canonica": "H014"
     },
     {
       "id": "H014",
@@ -647,7 +716,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H014/README.md",
+      "enlace_codigo": "proyectos/historicos/H014/run.py"
     },
     {
       "id": "H015",
@@ -655,7 +730,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H015/README.md",
+      "enlace_codigo": "proyectos/historicos/H015/run.py"
     },
     {
       "id": "H016",
@@ -663,7 +744,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H016/README.md",
+      "enlace_codigo": "proyectos/historicos/H016/run.py"
     },
     {
       "id": "H017",
@@ -671,7 +758,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H017/README.md",
+      "enlace_codigo": "proyectos/historicos/H017/run.py"
     },
     {
       "id": "H018",
@@ -679,7 +772,13 @@
       "grupo": "historico",
       "categoria": "ia-aplicada",
       "rol_preliminar": "EXPERIMENTO",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H018/README.md",
+      "enlace_codigo": "proyectos/historicos/H018/run.py"
     },
     {
       "id": "H019",
@@ -687,7 +786,14 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "VARIANTE",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "RELATED_NO_DUPLICATE_CODE",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H019/README.md",
+      "enlace_codigo": "proyectos/historicos/H029/README.md",
+      "relacion_canonica": "H029"
     },
     {
       "id": "H020",
@@ -695,7 +801,13 @@
       "grupo": "historico",
       "categoria": "pdf-documentos",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H020/README.md",
+      "enlace_codigo": "proyectos/historicos/H020/run.py"
     },
     {
       "id": "H021",
@@ -703,7 +815,13 @@
       "grupo": "historico",
       "categoria": "ia-aplicada",
       "rol_preliminar": "VARIANTE",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "RESTRICTED_NO_SOURCE",
+      "codigo_demo_disponible": false,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H021/README.md",
+      "enlace_codigo": null
     },
     {
       "id": "H022",
@@ -711,7 +829,13 @@
       "grupo": "historico",
       "categoria": "archivos-sistemas",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H022/README.md",
+      "enlace_codigo": "proyectos/historicos/H022/run.py"
     },
     {
       "id": "H023",
@@ -719,7 +843,13 @@
       "grupo": "historico",
       "categoria": "ocr-vision",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "RESTRICTED_NO_SOURCE",
+      "codigo_demo_disponible": false,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H023/README.md",
+      "enlace_codigo": null
     },
     {
       "id": "H024",
@@ -727,7 +857,13 @@
       "grupo": "historico",
       "categoria": "pdf-documentos",
       "rol_preliminar": "VARIANTE",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "RELATED_NO_DUPLICATE_CODE",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H024/README.md",
+      "enlace_codigo": "proyectos/Área A/A-003/README.md"
     },
     {
       "id": "H025",
@@ -735,7 +871,13 @@
       "grupo": "historico",
       "categoria": "pdf-documentos",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H025/README.md",
+      "enlace_codigo": "proyectos/historicos/H025/run.py"
     },
     {
       "id": "H026",
@@ -743,7 +885,13 @@
       "grupo": "historico",
       "categoria": "ocr-vision",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H026/README.md",
+      "enlace_codigo": "proyectos/historicos/H026/run.py"
     },
     {
       "id": "H027",
@@ -751,7 +899,13 @@
       "grupo": "historico",
       "categoria": "archivos-sistemas",
       "rol_preliminar": "COMPONENTE",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H027/README.md",
+      "enlace_codigo": "proyectos/historicos/H027/run.py"
     },
     {
       "id": "H028",
@@ -759,7 +913,14 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "DUPLICADO",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "DUPLICATE_NO_CODE",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H028/README.md",
+      "enlace_codigo": "proyectos/historicos/H029/README.md",
+      "relacion_canonica": "H029"
     },
     {
       "id": "H029",
@@ -767,7 +928,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H029/README.md",
+      "enlace_codigo": "proyectos/historicos/H029/run.py"
     },
     {
       "id": "H030",
@@ -775,7 +942,14 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "VARIANTE",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "RELATED_NO_DUPLICATE_CODE",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H030/README.md",
+      "enlace_codigo": "proyectos/historicos/H029/README.md",
+      "relacion_canonica": "H029"
     },
     {
       "id": "H031",
@@ -783,7 +957,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H031/README.md",
+      "enlace_codigo": "proyectos/historicos/H031/run.py"
     },
     {
       "id": "H032",
@@ -791,7 +971,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H032/README.md",
+      "enlace_codigo": "proyectos/historicos/H032/run.py"
     },
     {
       "id": "H033",
@@ -799,7 +985,14 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "VARIANTE",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "RELATED_NO_DUPLICATE_CODE",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H033/README.md",
+      "enlace_codigo": "proyectos/historicos/H029/README.md",
+      "relacion_canonica": "H029"
     },
     {
       "id": "H034",
@@ -807,7 +1000,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H034/README.md",
+      "enlace_codigo": "proyectos/historicos/H034/run.py"
     },
     {
       "id": "H035",
@@ -815,7 +1014,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H035/README.md",
+      "enlace_codigo": "proyectos/historicos/H035/run.py"
     },
     {
       "id": "H036",
@@ -823,7 +1028,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H036/README.md",
+      "enlace_codigo": "proyectos/historicos/H036/run.py"
     },
     {
       "id": "H037",
@@ -831,7 +1042,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H037/README.md",
+      "enlace_codigo": "proyectos/historicos/H037/run.py"
     },
     {
       "id": "H038",
@@ -839,7 +1056,13 @@
       "grupo": "historico",
       "categoria": "ia-aplicada",
       "rol_preliminar": "EXPERIMENTO",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H038/README.md",
+      "enlace_codigo": "proyectos/historicos/H038/run.py"
     },
     {
       "id": "H039",
@@ -847,7 +1070,13 @@
       "grupo": "historico",
       "categoria": "apps-dashboards",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H039/README.md",
+      "enlace_codigo": "proyectos/historicos/H039/run.py"
     },
     {
       "id": "H040",
@@ -855,7 +1084,13 @@
       "grupo": "historico",
       "categoria": "automatizacion-web",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H040/README.md",
+      "enlace_codigo": "proyectos/historicos/H040/run.py"
     },
     {
       "id": "H041",
@@ -863,7 +1098,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H041/README.md",
+      "enlace_codigo": "proyectos/historicos/H041/run.py"
     },
     {
       "id": "H042",
@@ -871,7 +1112,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H042/README.md",
+      "enlace_codigo": "proyectos/historicos/H042/run.py"
     },
     {
       "id": "H043",
@@ -879,7 +1126,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H043/README.md",
+      "enlace_codigo": "proyectos/historicos/H043/run.py"
     },
     {
       "id": "H044",
@@ -887,7 +1140,13 @@
       "grupo": "historico",
       "categoria": "apps-dashboards",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H044/README.md",
+      "enlace_codigo": "proyectos/historicos/H044/run.py"
     },
     {
       "id": "H045",
@@ -895,7 +1154,13 @@
       "grupo": "historico",
       "categoria": "ia-aplicada",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H045/README.md",
+      "enlace_codigo": "proyectos/historicos/H045/run.py"
     },
     {
       "id": "H046",
@@ -903,7 +1168,13 @@
       "grupo": "historico",
       "categoria": "ia-aplicada",
       "rol_preliminar": "EXPERIMENTO",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H046/README.md",
+      "enlace_codigo": "proyectos/historicos/H046/run.py"
     },
     {
       "id": "H047",
@@ -911,7 +1182,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H047/README.md",
+      "enlace_codigo": "proyectos/historicos/H047/run.py"
     },
     {
       "id": "H048",
@@ -919,7 +1196,14 @@
       "grupo": "historico",
       "categoria": "ia-aplicada",
       "rol_preliminar": "VARIANTE",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "RELATED_NO_DUPLICATE_CODE",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H048/README.md",
+      "enlace_codigo": "proyectos/historicos/H049/README.md",
+      "relacion_canonica": "H049"
     },
     {
       "id": "H049",
@@ -927,7 +1211,13 @@
       "grupo": "historico",
       "categoria": "automatizacion-web",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H049/README.md",
+      "enlace_codigo": "proyectos/historicos/H049/run.py"
     },
     {
       "id": "H050",
@@ -935,7 +1225,13 @@
       "grupo": "historico",
       "categoria": "pdf-documentos",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H050/README.md",
+      "enlace_codigo": "proyectos/historicos/H050/run.py"
     },
     {
       "id": "H051",
@@ -943,7 +1239,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "LINKED_EXISTING_DEMO",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H051/README.md",
+      "enlace_codigo": "proyectos/excel-column-matcher/README.md"
     },
     {
       "id": "H052",
@@ -951,7 +1253,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H052/README.md",
+      "enlace_codigo": "proyectos/historicos/H052/run.py"
     },
     {
       "id": "H053",
@@ -959,7 +1267,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "LINKED_EXISTING_DEMO",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H053/README.md",
+      "enlace_codigo": "proyectos/excel-workbook-consolidator/README.md"
     },
     {
       "id": "H054",
@@ -967,7 +1281,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H054/README.md",
+      "enlace_codigo": "proyectos/historicos/H054/run.py"
     },
     {
       "id": "H055",
@@ -975,7 +1295,13 @@
       "grupo": "historico",
       "categoria": "archivos-sistemas",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "LINKED_EXISTING_DEMO",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H055/README.md",
+      "enlace_codigo": "proyectos/pdf-organizer-from-excel/README.md"
     },
     {
       "id": "H056",
@@ -983,7 +1309,13 @@
       "grupo": "historico",
       "categoria": "archivos-sistemas",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "LINKED_EXISTING_DEMO",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H056/README.md",
+      "enlace_codigo": "proyectos/folder-inventory-report/README.md"
     },
     {
       "id": "H057",
@@ -991,7 +1323,13 @@
       "grupo": "historico",
       "categoria": "archivos-sistemas",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H057/README.md",
+      "enlace_codigo": "proyectos/historicos/H057/run.py"
     },
     {
       "id": "H058",
@@ -999,7 +1337,13 @@
       "grupo": "historico",
       "categoria": "automatizacion-web",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H058/README.md",
+      "enlace_codigo": "proyectos/historicos/H058/run.py"
     },
     {
       "id": "H059",
@@ -1007,7 +1351,13 @@
       "grupo": "historico",
       "categoria": "ocr-vision",
       "rol_preliminar": "EXPERIMENTO",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H059/README.md",
+      "enlace_codigo": "proyectos/historicos/H059/run.py"
     },
     {
       "id": "H060",
@@ -1015,7 +1365,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "COMPONENTE",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H060/README.md",
+      "enlace_codigo": "proyectos/historicos/H060/run.py"
     },
     {
       "id": "H061",
@@ -1023,7 +1379,13 @@
       "grupo": "historico",
       "categoria": "archivos-sistemas",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H061/README.md",
+      "enlace_codigo": "proyectos/historicos/H061/run.py"
     },
     {
       "id": "H062",
@@ -1031,7 +1393,14 @@
       "grupo": "historico",
       "categoria": "archivos-sistemas",
       "rol_preliminar": "VARIANTE",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "RELATED_NO_DUPLICATE_CODE",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H062/README.md",
+      "enlace_codigo": "proyectos/historicos/H061/README.md",
+      "relacion_canonica": "H061"
     },
     {
       "id": "H063",
@@ -1039,7 +1408,13 @@
       "grupo": "historico",
       "categoria": "ia-aplicada",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H063/README.md",
+      "enlace_codigo": "proyectos/historicos/H063/run.py"
     },
     {
       "id": "H064",
@@ -1047,7 +1422,13 @@
       "grupo": "historico",
       "categoria": "ocr-vision",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H064/README.md",
+      "enlace_codigo": "proyectos/historicos/H064/run.py"
     },
     {
       "id": "H065",
@@ -1055,7 +1436,13 @@
       "grupo": "historico",
       "categoria": "pdf-documentos",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H065/README.md",
+      "enlace_codigo": "proyectos/historicos/H065/run.py"
     },
     {
       "id": "H066",
@@ -1063,7 +1450,13 @@
       "grupo": "historico",
       "categoria": "archivos-sistemas",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "LINKED_EXISTING_DEMO",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H066/README.md",
+      "enlace_codigo": "proyectos/pdf-certificate-auditor/README.md"
     },
     {
       "id": "H067",
@@ -1071,7 +1464,13 @@
       "grupo": "historico",
       "categoria": "ocr-vision",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H067/README.md",
+      "enlace_codigo": "proyectos/historicos/H067/run.py"
     },
     {
       "id": "H068",
@@ -1079,7 +1478,13 @@
       "grupo": "historico",
       "categoria": "pdf-documentos",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "LINKED_EXISTING_DEMO",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H068/README.md",
+      "enlace_codigo": "proyectos/pdf-field-extractor/README.md"
     },
     {
       "id": "H069",
@@ -1087,7 +1492,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H069/README.md",
+      "enlace_codigo": "proyectos/historicos/H069/run.py"
     },
     {
       "id": "H070",
@@ -1095,7 +1506,13 @@
       "grupo": "historico",
       "categoria": "ocr-vision",
       "rol_preliminar": "EXPERIMENTO",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H070/README.md",
+      "enlace_codigo": "proyectos/historicos/H070/run.py"
     },
     {
       "id": "H071",
@@ -1103,7 +1520,13 @@
       "grupo": "historico",
       "categoria": "datos-excel",
       "rol_preliminar": "SOLUCION",
-      "codigo_original_incluido": false
+      "codigo_original_incluido": false,
+      "estado_migracion_historico": "OFFLINE_RECONSTRUCTION",
+      "codigo_demo_disponible": true,
+      "copia_fiel_original": false,
+      "publicacion_aprobada": false,
+      "enlace_ficha": "proyectos/historicos/H071/README.md",
+      "enlace_codigo": "proyectos/historicos/H071/run.py"
     }
   ],
   "aviso": "No contiene nombres ni rutas originales, ni identificadores internos. Dos entradas históricas quedan fuera del listado; no se incluyen sus IDs. Se han incorporado cinco versiones de código adaptado en un repositorio privado; el código original sin saneamiento sigue reservado.",
@@ -1113,5 +1536,16 @@
     "tickets_solo_descripcion": 6,
     "pruebas_locales_acumuladas": 93,
     "nota": "Algunas implementaciones son demostraciones alternativas, no migración íntegra del original"
+  },
+  "estado_migracion_historicos": {
+    "total_visible": 69,
+    "reconstrucciones_offline": 51,
+    "demostraciones_existentes_vinculadas": 6,
+    "variantes_componentes_referenciados": 8,
+    "duplicados_sin_codigo_repetido": 2,
+    "restringidos_sin_fuente": 2,
+    "codigo_empresarial_copiado": 0,
+    "publicacion_autorizada": false,
+    "pruebas_de_ejecucion_reconstrucciones": 51
   }
 }

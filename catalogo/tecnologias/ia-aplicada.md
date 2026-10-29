@@ -9,11 +9,11 @@ Procesamiento de información mediante modelos de IA
 ## Trabajos históricos
 | Código | Trabajo | Clasificación provisional |
 |---|---|---|
-| H018 | Experimento con modelos de lenguaje | Experimento |
-| H021 | Digitalización de formularios — variante | Variante |
-| H038 | Experimento de integración con IA | Experimento |
-| H045 | Análisis visual de PDF mediante IA | Solucion |
-| H046 | Experimento de integración de servicios | Experimento |
-| H048 | Procesamiento de mensajes con IA — variante | Variante |
-| H063 | Extracción OCR asistida por IA | Solucion |
+| [H018](../../proyectos/historicos/H018/README.md) | Experimento con modelos de lenguaje | Experimento |
+| [H021](../../proyectos/historicos/H021/README.md) | Digitalización de formularios — variante | Variante |
+| [H038](../../proyectos/historicos/H038/README.md) | Experimento de integración con IA | Experimento |
+| [H045](../../proyectos/historicos/H045/README.md) | Análisis visual de PDF mediante IA | Solucion |
+| [H046](../../proyectos/historicos/H046/README.md) | Experimento de integración de servicios | Experimento |
+| [H048](../../proyectos/historicos/H048/README.md) | Procesamiento de mensajes con IA — variante | Variante |
+| [H063](../../proyectos/historicos/H063/README.md) | Extracción OCR asistida por IA | Solucion |
 [Índice tecnológico](README.md)

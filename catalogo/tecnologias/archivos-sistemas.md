@@ -10,12 +10,12 @@ Inventario, organización y procesamiento local
 ## Trabajos históricos
 | Código | Trabajo | Clasificación provisional |
 |---|---|---|
-| H022 | Recopilador de PDF en carpetas | Solucion |
-| H027 | Renombrado preparatorio de archivos | Componente |
-| H055 | Organizador de PDF mediante Excel | Solucion |
-| H056 | Inventario de carpetas a Excel | Solucion |
-| H057 | Búsqueda aproximada de documentos | Solucion |
-| H061 | Recopilador de PDF mediante listas | Solucion |
-| H062 | Recopilador de PDF con informe | Variante |
-| H066 | Auditoría de documentos por patrones | Solucion |
+| [H022](../../proyectos/historicos/H022/README.md) | Recopilador de PDF en carpetas | Solucion |
+| [H027](../../proyectos/historicos/H027/README.md) | Renombrado preparatorio de archivos | Componente |
+| [H055](../../proyectos/historicos/H055/README.md) | Organizador de PDF mediante Excel | Solucion |
+| [H056](../../proyectos/historicos/H056/README.md) | Inventario de carpetas a Excel | Solucion |
+| [H057](../../proyectos/historicos/H057/README.md) | Búsqueda aproximada de documentos | Solucion |
+| [H061](../../proyectos/historicos/H061/README.md) | Recopilador de PDF mediante listas | Solucion |
+| [H062](../../proyectos/historicos/H062/README.md) | Recopilador de PDF con informe | Variante |
+| [H066](../../proyectos/historicos/H066/README.md) | Auditoría de documentos por patrones | Solucion |
 [Índice tecnológico](README.md)
