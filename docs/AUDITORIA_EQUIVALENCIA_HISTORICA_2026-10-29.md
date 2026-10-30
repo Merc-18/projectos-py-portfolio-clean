@@ -38,3 +38,15 @@ Ninguna de estas observaciones autoriza trasladar código original al destino. L
 
 ## Conclusión
 La **migración de presentación/inventario está cubierta**, pero la **equivalencia completa no está certificada**. Esta auditoría estática detecta brechas significativas y reduce el riesgo de declarar terminado un traslado fiel que todavía no se ha probado.
+
+## Evidencia de pruebas automatizadas — 2026-10-30
+
+- Ejecución GitHub Actions: https://github.com/Merc-18/projectos-py-portfolio-clean/actions/runs/41073313228
+- Commit probado: `5dbe26147525710008fe2c233f7997c5a3974024`.
+- `python -m compileall -q proyectos tests`: **PASS**.
+- `python -m pytest -q tests proyectos --disable-warnings`: **171 passed, 11 subtests passed** en 13.20 segundos, **0 fallidos**.
+- Configuración de CI corregida: dependencias Python de PDF, HTML, comparación, navegador (Playwright/Chromium) y OCR local (Tesseract). Se repararon las rutas relativas del manifiesto y se eliminó la dependencia de ruta fija a Chromium en la prueba.
+- Alcance: **pruebas sintéticas automatizadas del portafolio**, incluyendo ejecución de los 51 wrappers de reconstrucciones históricas. Esta evidencia **no** valida equivalencia integral de cada código original con su reconstrucción, licencias, historial ni preparación para publicación.
+- No se cambió `main` ni la visibilidad privada.
+
+**Dictamen actualizado:** pruebas de regresión del portafolio en verde. Auditoría diferencial de equivalencia y auditoría integral de publicación siguen **pendientes**.
