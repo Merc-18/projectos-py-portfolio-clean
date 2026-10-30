@@ -55,7 +55,7 @@ class HistoricalTests(unittest.TestCase):
         return self.outputs/f'{id}.{ext}'
 
     def test_every_wrapper_with_fictional_inputs(self):
-        manifest=json.loads((ROOT.parent.parent/'historical_manifest.json').read_text())
+        manifest=json.loads((ROOT/'historical_manifest.json').read_text())
         total=0
         for row in manifest['records']:
             if row['status']!='OFFLINE_RECONSTRUCTION':continue
@@ -100,7 +100,7 @@ class HistoricalTests(unittest.TestCase):
         with self.assertRaises(ValueError):core.main(['--mode','scan_files','--input',str(d),'--output',str(d/'result.csv')])
 
     def test_inventory_counts_and_source_separation(self):
-        j=json.loads((ROOT.parent.parent/'historical_manifest.json').read_text())
+        j=json.loads((ROOT/'historical_manifest.json').read_text())
         self.assertEqual(len(j['records']),69)
         self.assertEqual(j['total_historical'],71)
         self.assertEqual(j['hidden_count'],2)
