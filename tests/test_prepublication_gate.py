@@ -23,8 +23,11 @@ class PrepublicationGate(unittest.TestCase):
     def test_every_record_not_publicly_approved(self):
         for row in self.rows:
             with self.subTest(id=row['id']):
-                self.assertIs(row['apto_para_publicar'],False)
                 self.assertIs(row['codigo_original_incluido'],False)
+                if row['grupo']=='ticket':
+                    self.assertIs(row['apto_para_publicar'],False)
+                else:
+                    self.assertIs(row['publicacion_aprobada'],False)
         for row in self.hist['records']:
             with self.subTest(id=row['id']):
                 self.assertIs(row['public_approved'],False)
