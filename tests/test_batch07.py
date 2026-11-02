@@ -150,11 +150,11 @@ class OfflineFormTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as td:
             target=Path(td)/'filled.png'
             values={'codigo':'DEMO-001','fecha':'2026-01-15','asunto':'Formulario de ensayo'}
-            result=a4.fill_demo(values,target,chromium_path='/usr/bin/chromium')
+            result=a4.fill_demo(values,target,chromium_path=None)
             self.assertEqual(result['campos_verificados'],3)
             self.assertEqual(result['servidores_consultados'],0)
             with Image.open(target) as im:self.assertGreater(im.width,500)
-            with self.assertRaises(FileExistsError):a4.fill_demo(values,target,chromium_path='/usr/bin/chromium')
+            with self.assertRaises(FileExistsError):a4.fill_demo(values,target,chromium_path=None)
 
 
 class StreamlitAlternativeTests(unittest.TestCase):

@@ -1,0 +1,33 @@
+name: Private audit validation
+on:
+  push:
+    branches:
+      - audit/historical-equivalence-2026-10-29
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Load complete Git history for audit
+        run: git fetch --prune --unshallow || git fetch --prune --all
+      - name: Install test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements-tickets.txt -r proyectos/historicos/requirements.txt reportlab beautifulsoup4 requests matplotlib pdfplumber scipy playwright pytest
+      - name: Install local OCR engine
+        run: sudo apt-get update -qq && sudo apt-get install -y tesseract-ocr tesseract-ocr-eng
+      - name: Install isolated browser for synthetic test
+        run: python -m playwright install --with-deps chromium
+      - name: Compile Python sources
+        run: python -m compileall -q proyectos tests
+      - name: Audit Git objects, private identifiers and inventory
+        run: python scripts/private_portfolio_audit.py
+      - name: Run complete portfolio unit test suite
+        run: python -m pytest -q tests proyectos --disable-warnings
