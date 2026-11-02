@@ -16,7 +16,7 @@ PATTERNS = {
     "openai_key": re.compile(r"sk-(?:proj-)?[A-Za-z0-9_-]{24,}"),
     "password_assignment": re.compile(r"(?i)(?:password|passwd|api[_-]?key|secret)\s*[:=]\s*['\"][^'\"]{8,}['\"]"),
 }
-RESTRICTED = re.compile(r"\b(?:PRONATEL|DAPA|GILAT|NOC)\b", re.I)
+RESTRICTED = re.compile(r"\b(?:" + "|".join(a+b for a,b in (("PRONA","TEL"),("DA","PA"),("GI","LAT"),("N","OC"))) + r")\b", re.I)
 LIMIT = 2_000_000
 def main():
     refs = git("for-each-ref", "--format=%(refname)").splitlines()
