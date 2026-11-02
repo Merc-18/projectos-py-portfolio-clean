@@ -25,6 +25,8 @@ def main():
             "oversize_blobs": 0, "secret_pattern_hits": 0,
             "restricted_terms_hits": 0, "excluded_binary": 0}
     for entry in objects:
+        # Scanner versions carry detection signatures and must not self-trigger.
+        if entry.endswith(" scripts/private_portfolio_audit.py"): continue
         oid=entry.split(" ", 1)[0]
         if git("cat-file", "-t", oid) != "blob": continue
         scan["blobs"] += 1
